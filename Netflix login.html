@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+<style>
+    body {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+      background-image: url(bgi.jpeg);
+    }
+    .heading{
+        font-size: xx-large;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5rem;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .lb {
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 30rem;
+    margin-top: 2rem;
+    width: 30%
+    }
+
+    .ibox{
+    border: 0;
+    border-radius: 4px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: medium;
+    height: 50px;
+    width: 300px;
+    line-height: 50px;
+    padding: 16px 20px 0;
+}
+    .bt1 {
+    background-color:rgba(255, 0, 0, 0.805);
+    border: 1x;
+    padding: 17px 125px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    border-radius: 4px;
+    
+    
+}
+
+    .back{ 
+        background-color: rgba(255, 0, 0, 0.805);
+        color: white;
+        padding: 8px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 3px;
+
+}
+   
+    </style>
+    </head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="logo.png" alt="Netflix" />
+            <a href="Self.html" class="back">Back</a>
+    </div>
+    <div  class="lb">
+        <p class="heading"><b>Sign in</b></p>
+        <form style="text-align: center;">
+        <input type="email" id ="Username" class="ibox" name="Username" placeholder="Email or phone number">
+        <br><br><br>
+        <input type="password"  id="pass" class="ibox" name="password" placeholder="Password" minlength="4" maxlength="10" required>
+        <br><br><br>
+        <input type="submit" value="Sign in" class="bt1">
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </form>
+    </div>
+    </header>
+</body>
